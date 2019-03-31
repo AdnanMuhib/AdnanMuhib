@@ -31,27 +31,27 @@
 		}));
 
         // AJAX CONTACT FORM
-        $(".contactform").on("submit", function() {
-            $(".output_message").text("Loading...");
+        // $(".contactform").on("submit", function() {
+        //     $(".output_message").text("Loading...");
 
-            var form = $(this);
-            $.ajax({
-                url: form.attr("action"),
-                method: form.attr("method"),
-                data: form.serialize(),
-                success: function(result) {
-                    if (result == "success") {
-                        $(".contactform").find(".output_message").addClass("success");
-                        $(".output_message").text("Message Sent!");
-                    } else {
-                        $(".contactform").find(".output_message").addClass("error");
-                        $(".output_message").text("Error Sending!");
-                    }
-                }
-            });
+        //     var form = $(this);
+        //     $.ajax({
+        //         url: form.attr("action"),
+        //         method: form.attr("method"),
+        //         data: form.serialize(),
+        //         success: function(result) {
+        //             if (result == "success") {
+        //                 $(".contactform").find(".output_message").addClass("success");
+        //                 $(".output_message").text("Message Sent!");
+        //             } else {
+        //                 $(".contactform").find(".output_message").addClass("error");
+        //                 $(".output_message").text("Error Sending!");
+        //             }
+        //         }
+        //     });
 
-            return false;
-        });
+        //     return false;
+        // });
 
 		// MATERIAL CAROUSEL
         $(".carousel.carousel-slider").carousel({
