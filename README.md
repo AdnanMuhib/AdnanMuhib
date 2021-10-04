@@ -1,4 +1,2 @@
-### Hi there, 
-### I am Muhammad Adnan
-### Learn more about me at [www.adnanmuhib.me](http://www.adnanmuhib.me)
-![Profile Picture](https://github.com/AdnanMuhib/AdnanMuhib/blob/master/images/main-photo.jpg)
+![Adnan's GitHub stats](https://github-readme-stats.vercel.app/api?username=AdnanMuhib&count_private=true&show_icons=true&theme=dark)
+
